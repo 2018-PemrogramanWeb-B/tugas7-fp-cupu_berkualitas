@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 100vw;
+  height: 50vh;
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+}
+
+.item {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+.img{
+	background-size:cover;
+}
+
+  </style>
   </head>
   <body>
     <!-- Optional JavaScript -->
@@ -46,26 +69,26 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="images/Sample1.jpeg" alt="Chania">
+              <img src="broken beach.png" alt="broken beach">
               <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>LA is always so much fun!</p>
+                <h3>title ke x</h3>
+                <p>comment ke a</p>
               </div>
             </div>
 
             <div class="item">
-              <img src="images/Sample1.jpeg" alt="Chicago">
+              <img src="broken beach.png" alt="broken beach">
               <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
+                <h3>title ke y</h3>
+                <p>comment ke b</p>
               </div>
             </div>
 
             <div class="item">
-              <img src="images/Sample1.jpeg" alt="New York">
+              <img src="broken beach.png" alt="broken beach">
               <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
+                <h3>title ke z</h3>
+                <p>comment ke c</p>
               </div>
             </div>
           </div>
@@ -81,6 +104,15 @@
           </a>
           </div>
         </div>
+		<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed elit lorem. Vivamus ac lectus justo. Integer tempor sed dui sit amet cursus. Phasellus in nisi id neque dapibus pulvinar at commodo magna. Etiam eleifend ipsum vel facilisis facilisis. Etiam ut turpis in tellus varius volutpat. Morbi risus lacus, ultricies et maximus eleifend, interdum vitae ligula. Donec ut hendrerit metus, at facilisis magna. Suspendisse nec ante in dolor egestas dignissim sed vitae orci. Pellentesque sit amet mauris tristique, blandit tellus in, auctor felis. Ut imperdiet pharetra imperdiet.
+
+Sed eu est a justo pulvinar tincidunt eu ac purus. Quisque sit amet nisi lectus. Aenean ut magna id purus sagittis molestie id ultrices justo. Vestibulum congue fringilla urna, in rutrum odio volutpat eu. Fusce vel felis at tortor accumsan pretium. Suspendisse potenti. Nulla facilisi.
+
+Phasellus sit amet maximus libero. Suspendisse in ipsum elit. Nullam risus lorem, pharetra sit amet dolor ac, finibus imperdiet sapien. Mauris lobortis molestie sapien, id faucibus dolor lobortis sed. Sed sit amet rutrum sem. Ut vulputate enim at urna pretium ultrices. Nullam vulputate arcu nec pulvinar pretium. Etiam pretium ut lorem quis dictum. Nulla sed massa nec nisl dictum cursus eu nec dolor. Pellentesque lacinia massa sit amet ligula tincidunt volutpat. In gravida in quam sed laoreet.
+
+Integer suscipit sodales ultricies. Sed aliquet feugiat elit, sed sollicitudin mi scelerisque ut. Donec nec nulla porttitor velit consequat malesuada in ut nulla. Integer bibendum lacinia iaculis. Fusce id diam urna. Phasellus consectetur eleifend ex non efficitur. Vestibulum venenatis imperdiet nisi quis gravida.
+
+Sed tincidunt ut odio vel consectetur. Donec scelerisque vestibulum elit luctus pretium. Aenean urna erat, sodales iaculis dignissim non, tincidunt sed erat. Pellentesque ac tortor et quam sagittis malesuada at in tellus. Proin lobortis ac velit sed egestas. Donec mattis odio ac arcu dapibus imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur porttitor velit sem, quis pellentesque leo interdum in. Suspendisse id tortor magna. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Phasellus sit amet iaculis nunc. Duis et nulla efficitur, tincidunt erat vitae, eleifend felis.</p></div>
 
 
  </body>
