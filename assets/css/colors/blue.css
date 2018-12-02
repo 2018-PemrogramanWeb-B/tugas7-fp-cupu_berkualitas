@@ -51,26 +51,6 @@ a:hover{
 .team-item .info-text h3 a:hover{
   color: #0eacf3;
 }
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, 
-.schedule .schedule-tab-title .nav-tabs .nav-link.active, 
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover{
-  background: #0eacf3;
-  border-color: #0eacf3;
-}
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, 
-.schedule .schedule-tab-title .nav-tabs .nav-link.active, 
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover{
-  background: #0eacf3;
-  border: #0eacf3 transparent transparent transparent
-}
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link:before, 
-.schedule .schedule-tab-title .nav-tabs .nav-link.active:before, 
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover:before{
-  border-color: #0eacf3 transparent transparent transparent
-}
-.schedule .tab-content .table>tbody .speakers .speaker h5 a:hover{
-  color: #0eacf3;
-}
 
 .services-item .services-content h3 a{
   color: #0eacf3;

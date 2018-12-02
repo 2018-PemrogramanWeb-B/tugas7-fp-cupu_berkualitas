@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Grand - Event and Conference Template</title>
+    <title>Login</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
@@ -37,24 +37,48 @@
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
-<h2>Form login</h2>
 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
+    <!-- Login Start -->
+    <section id="login" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Login</h1>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="form-wrapper">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                  <div class="row">
+                    <div class="col-md-12 form-line">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                    
+                      <div class="col-md-12 form-line">
+                          <div class="form-group">
+                            <input type="password" class="form-control" name="pswd" placeholder="password" required data-error="Please enter your password again">
+                            <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-12 form-submit">
+                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Login End -->
 
 </body>
 </html>
