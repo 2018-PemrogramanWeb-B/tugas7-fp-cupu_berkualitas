@@ -1,92 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
+    <title>Login</title>
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
-.container {
-    padding: 16px;
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-}
-</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href=" assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body>
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 
-<h2>Form login</h2>
 
-<form action="/action_page.php">
-  <div class="container">
-    <!--login menggunakan username atau email-->
-    <input type="text" placeholder="username" name="uname" required>
-	<input type=text placeholder="email" required>
-	<input type=password placeholder="password" required>
-	<input type=password placeholder="re:password " required>
- 
-    <button type="submit">log in</button>
-    
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    
-  </div>
-</form>
+    <!-- Login Start -->
+    <section id="login" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Login</h1>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="form-wrapper">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" action="validate sign-in.php">
+                  <div class="row">
+                    <div class="col-md-12 form-line">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="uname" placeholder="Username" required data-error="Please enter your Username">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+					<div class="col-md-12 form-line">
+						<div class="form-group">
+							<input type="text" class="form-control" name="email" placeholder="Email" required data-error="Please enter your Email">
+							<div class="help-block with-errors"></div>
+						</div> 
+					</div>
+                      <div class="col-md-12 form-line">
+                          <div class="form-group">
+                            <input type="password" class="form-control" name="pswd" placeholder="password" required data-error="Please enter your password again">
+                            <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+						
+                      <div class="col-md-12 form-submit">
+                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Login End -->
 
 </body>
 </html>

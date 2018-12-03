@@ -51,11 +51,11 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" action="validate login.php">
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Please enter your Email">
+                        <input type="text" class="form-control" name="uname" placeholder="Username" required data-error="Please enter your Username">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
@@ -66,7 +66,7 @@
                             <div class="help-block with-errors"></div>
                           </div>
                       </div>
-
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=daftar.php>not yet sign-in?</a	>
                       <div class="col-md-12 form-submit">
                         <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
