@@ -54,7 +54,7 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password:</label>
-    <input type="pswd" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" name='pswd'class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
   <div class="form-group form-check">
     <a href='sign-in.php'>belum punya akun?</a>
