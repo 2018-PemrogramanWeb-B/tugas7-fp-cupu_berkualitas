@@ -45,7 +45,7 @@
 <div class=container>
 <h2>Form login</h2>
 
-<form>
+<form method=post action="validate login.php">
 
   <div class="form-group">
     <label for="exampleInputEmail1">username:</label>
