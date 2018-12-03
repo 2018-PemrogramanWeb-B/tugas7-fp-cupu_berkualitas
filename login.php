@@ -21,11 +21,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-	<style>
-	.container {
-		padding: 16px;
-	}
-	</style>
 </head>
 <body>
     <script src="assets/js/jquery-min.js"></script>
@@ -42,7 +37,6 @@
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
-<<<<<<< HEAD
 
 
     <!-- Login Start -->
@@ -85,28 +79,6 @@
       </div>
     </section>
     <!-- Login End -->
-=======
-<div class=container>
-<h2>Form login</h2>
-
-<form method=post action="validate login.php">
-
-  <div class="form-group">
-    <label for="exampleInputEmail1">username:</label>
-    <input type=text name=uname class="form-control"  placeholder="Enter username">
-    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password:</label>
-    <input type="password" name='pswd'class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <a href='sign-in.php'>belum punya akun?</a>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
-</form>
->>>>>>> a7251c967632d09bcfb5aa3ec4cc699282919958
 
 </body>
 </html>
