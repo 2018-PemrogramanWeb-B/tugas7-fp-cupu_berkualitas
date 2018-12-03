@@ -21,6 +21,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<style>
+	.container {
+		padding: 16px;
+	}
+	</style>
 </head>
 <body>
     <script src="assets/js/jquery-min.js"></script>
@@ -37,23 +42,25 @@
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+<div class=container>
 <h2>Form login</h2>
 
 <form>
+
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="exampleInputEmail1">username:</label>
+    <input type=text name=uname class="form-control"  placeholder="Enter username">
+    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">Password:</label>
+    <input type="pswd" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
   <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <a href='sign-in.php'>belum punya akun?</a>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
 </form>
 
 </body>
