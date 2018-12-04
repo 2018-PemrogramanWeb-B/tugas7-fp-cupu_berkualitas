@@ -71,27 +71,33 @@
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Page title
+	  <?php
+	  $conn= new mysqli("localhost","root","","mydb");
+	  $row=mysqli_fetch_assoc($result);
+	  $result=$conn->query('SELECT * FROM page WHERE id_page="'.$_POST['id_page']."\"");
+	  Srow=mysqli_fetch_assoc($result);
+	  ?>
+      <h1 class="my-4"><?php$row['title']?>
       </h1>
 
       <!-- Portfolio Item Row -->
       <div class="row">
 
         <div class="col-lg-7 col-sm-8 ">
-          <img src="http://placehold.it/600x400" class="img-fluid" alt="Responsive image">
+          <?php
+		  print row['image'];
+		  ?>
         </div>
 
         <div class="col-lg-4 col-sm-6 ">
           <h3 class="my-3">donation description</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+          <p><?php$row['small_desc'];?><p>
           
-          <a href=#><h3>donate now</h3></a>
+          <a href=donation.php><h3>donate now</h3></a>
         </div>
 
       </div><br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id iaculis metus. Morbi blandit, metus eget tristique consequat, mi mi luctus velit, ac finibus nibh diam luctus ligula. Ut venenatis pellentesque sapien. Suspendisse sollicitudin congue purus ac interdum. Vivamus luctus magna arcu, non ultricies nisi dignissim vitae. Sed rhoncus dictum consectetur. Mauris a arcu non felis luctus lacinia. Aliquam nibh sapien, molestie eget enim sed, hendrerit volutpat arcu. Donec eu nisl iaculis, feugiat nunc sit amet, commodo lorem. Vivamus dictum purus at ligula interdum molestie. Quisque placerat vestibulum sagittis.</p>
-
-		<p>Proin dolor quam, pharetra aliquet ipsum at, placerat imperdiet dolor. Maecenas venenatis odio porta, aliquet lacus at, euismod leo. Suspendisse sollicitudin tempor aliquet. Maecenas auctor tincidunt tellus et convallis. Donec magna felis, posuere id quam eleifend, luctus fringilla dui. Aliquam et lacus molestie dolor auctor tristique vel molestie orci. Ut vehicula risus ipsum, vel rhoncus nisl commodo ac. Praesent rhoncus ex est, quis tincidunt leo molestie vel. Maecenas ac diam et purus suscipit venenatis a in neque. Phasellus tempor vitae dolor iaculis suscipit. Curabitur malesuada magna sed nibh ullamcorper suscipit. Sed nec turpis quis ligula ultricies vestibulum vitae eget magna. Vestibulum nibh nunc, placerat ut libero quis, viverra dapibus mi. Nam quis tristique libero, sit amet tempor dui. Sed non fermentum nisl. Nunc fermentum purus magna, sed pharetra est porttitor a.</p>
+		<p><?php$row['description'];?></p>
 
     </div>
     <!-- /.container -->

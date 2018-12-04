@@ -50,7 +50,7 @@
 					'+$row['title']+'
 				  </h4>
 				  <p class="card-text">'+$row['small_desc']+'</p>
-				<form action="validate%20sign-in.php" method=post>
+				<form action="main_donation temp.php" method=post>
 					<input type=radio name=id_page value='+$row['id_page']+'style=display:none;>
 					<button type=submit>visit<button>
 				</form>
