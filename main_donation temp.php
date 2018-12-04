@@ -93,7 +93,9 @@
           <h3 class="my-3">donation description</h3>
           <p><?php$row['small_desc'];?><p>
           
-          <a href=donation.php><h3>donate now</h3></a>
+          <?phpecho '<form action="main_donation temp.php" method=post>
+					<input type=radio name=id_page value='+$row['id_page']+'style=display:none;>
+					<button type=submit>donate now<button>'?>
         </div>
 
       </div><br>
