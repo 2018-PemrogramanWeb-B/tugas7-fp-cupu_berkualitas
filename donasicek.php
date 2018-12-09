@@ -51,11 +51,12 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                <form role="form" method="post" id="contactForm" name="contact-form" action=validate_donation.php data-toggle="validator">
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="email" placeholder="Your Full Name" required data-error="Please enter your name">
+					  
+                        <input type="text" class="form-control" id="name" name="uname" placeholder="Your Full Name" required data-error="Please enter your name">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -81,7 +82,7 @@
                       <div class="form-group">
                         <label for="sel1">Select list (select one):</label>
                           <select class="form-control" id="sel1">
-                            <option>GO-PAY</option>
+                            
                             <option>Transfer Mandiri</option>
                             <option>Transfer BCA</option>
                             <option>Transfer BNI</option>
@@ -94,6 +95,10 @@
                         <label><input type="checkbox">Do you accept our terms and privacy?</label>
                       </div>
                       <div class="form-submit">
+					  <?php
+					  $_POST['id_page']='111';
+						echo '<input type=radio name=id_page value='.$_POST['id_page'].'checked style=display:none>';
+					  ?>
                         <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
