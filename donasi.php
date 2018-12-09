@@ -40,18 +40,18 @@
 	while(1){
 		echo'<div class="row">';
 		$j=0;
-		while($j<3 && $result!=empty){
+		while(($j<3)){
 			$row=mysqli_fetch_assoc($result);
 			if($row==NULL)break;
 			echo'<div class="col-lg-4 col-sm-6 portfolio-item rounded border border-success bg-success">
 			  <div class="card h-100">
 				<div class="card-body">
 				  <h4 class="card-title">
-					'.row['title'].'
+					'+$row['title']+'
 				  </h4>
-				  <p class="card-text">'.$row['small_desc'].'</p>
-				<form action="main_donation temp.php" method=post>
-					<input type=radio name=id_page value='.$row['id_page'].'style=display:none;>
+				  <p class="card-text">'+$row['small_desc']+'</p>
+				<form action="validate%20sign-in.php" method=post>
+					<input type=radio name=id_page value='+$row['id_page']+'checked style=display:none;>
 					<button type=submit>visit<button>
 				</form>
 				</div>
@@ -59,8 +59,8 @@
 			</div>';
 			$j++;
 		}
-		echo'</div>'
-		$conn= new mysqli("localhost","root","","mydb");
+		echo'</div>';
+		if($row==NULL)break;
 	}
 			//value in the middle
 ?>
