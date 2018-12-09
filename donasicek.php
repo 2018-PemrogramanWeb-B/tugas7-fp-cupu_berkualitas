@@ -72,6 +72,13 @@
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
+					
+					<input type=text name=id_page class="form-control" id="id_page" value="
+					<?php
+					echo$_POST['id_page'];
+					?>
+					"checked style=display:none>
+					  
                     <div class="col-md-12 form-line">
                       <div class="form-group">
                         <input type="number" class="form-control" id="donation" name="Donation" placeholder="Your Donation" required data-error="Please enter your donation">
@@ -94,11 +101,9 @@
                       <div class="checkbox">
                         <label><input type="checkbox">Do you accept our terms and privacy?</label>
                       </div>
+					  
                       <div class="form-submit">
-					  <?php
-					  $_POST['id_page']='111';
-						echo '<input type=radio name=id_page value='.$_POST['id_page'].'checked style=display:none>';
-					  ?>
+					  
                         <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
