@@ -35,7 +35,7 @@ $conn = new mysqli("localhost", "root","");
 		id_page INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 		title VARCHAR(50) NOT NULL,
 		sum_value INT NOT NULL,
-		image BLOB,
+		box_total int not null,
 		small_desc varchar(50),
 		description VARCHAR(200))
 		 ')===TRUE) {
