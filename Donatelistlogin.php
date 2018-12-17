@@ -130,21 +130,21 @@
           <table>  
           <tr>
             <td>Jumlah Box</td>
-			<td>:</td><?php
+			<td>:</td><td><?php
 			echo $box;
 			?></td>
             <td></td>
           </tr>
           <tr>
             <td>Jumlah Sumbangan</td>
-			<td>:</td><?php
+			<td>:</td><td><?php
 			echo $donasi;
 			?></td>
             
           </tr>
           <tr>
             <td>Total seluruhnya</td>
-			<td>:</td><?php
+			<td>:</td><td><?php
 			echo $total;
 			?></td>
           </tr>

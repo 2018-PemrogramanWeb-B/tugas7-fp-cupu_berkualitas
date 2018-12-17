@@ -42,5 +42,5 @@ $conn = new mysqli("localhost", "root","");
 	} else {
 		echo "Error creating table: <br>" . $conn->error;
 	}
-	$conn->query('INSERT INTO page values(NULL,"ABCDEFG",0,"VWXYZ","sudah ada diluar; ini belum diimplementasikan di page yg digunakan"')
+	$conn->query('INSERT INTO page values(NULL,"ABCDEFG",0,"VWXYZ","sudah ada diluar; ini belum diimplementasikan di page yg digunakan")')
 	?>
