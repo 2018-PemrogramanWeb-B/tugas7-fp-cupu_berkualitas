@@ -114,19 +114,38 @@
               </div>
             </div>
           </div>
+			<?php
+			$conn= new mysqli("localhost","root","","mydb");
+			if ($conn->connect_error) {
+			die("Connection failed: <br>" . $conn->connect_error);
+			}
+			$result=$conn->query('SELECT * FROM page');
+			$row=mysqli_fetch_assoc($result);
 
+			$total=$row['total'];
+			$box=(int)($total/6000*0.6);
+			$donasi=$total-$box*6000;
+			?>
           <table>  
           <tr>
-            <td>Jumlah Box<td>:</td></td>
+            <td>Jumlah Box</td>
+			<td>:</td><?php
+			echo $box;
+			?></td>
             <td></td>
           </tr>
           <tr>
-            <td>Jumlah Sumbangan<td>:</td></td>
-            <td>Francisco Chang</td>
+            <td>Jumlah Sumbangan</td>
+			<td>:</td><?php
+			echo $donasi;
+			?></td>
+            
           </tr>
           <tr>
-            <td>Total seluruhnya<td>:</td></td>
-            <td></td>
+            <td>Total seluruhnya</td>
+			<td>:</td><?php
+			echo $total;
+			?></td>
           </tr>
           </table>
           <br>
