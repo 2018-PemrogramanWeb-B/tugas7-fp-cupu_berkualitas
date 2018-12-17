@@ -66,7 +66,7 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="homelogin.php">
+                <a class="nav-link" href="welcomelogin.php">
                   Home
                 </a>
               </li>
@@ -169,11 +169,11 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator"action=validate_donation.php>
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="email" placeholder="Your Full Name" required data-error="Please enter your name">
+                        <input type="text" class="form-control" id="name" name="uname" placeholder="Your Full Name" required data-error="Please enter your name">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>

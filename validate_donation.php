@@ -7,8 +7,13 @@ $conn= new mysqli("localhost","root","","mydb");
 	}
 	$user=$_POST["uname"];
 	$val=$_POST['Donation'];
-	$id=$_POST['id_page'];
-	$conn->query('INSERT INTO page VALUES(NULL,\''.$id.'\',\''.$user.'\',\''.$val.'\',\''.date('20y-m-d').'\')');
+	
+	$conn->query('INSERT INTO donasi VALUES(NULL,\''.'1'.'\',\''.$user.'\',\''.$val.'\',\''.date('20y-m-d').'\')');
+	$result=$conn->query('SELECT * FROM page');
+	$row=mysqli_fetch_assoc($result);
+	$row['total']+=$val;
+	$conn->query('UPDATE `page` SET `total`='.$val.' WHERE id_page=1');
+	
 	header('location:berhasildonasi.php');
 ?>
 <!DOCTYPE html>

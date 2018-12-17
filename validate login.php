@@ -19,7 +19,7 @@ $conn= new mysqli("localhost","root","","mydb");
 		{
 			echo"sukses";
 			$session["user"]=$user;
-			header("location:welcome.blade.php");
+			header("location:welcomelogin.php");
 		}
 	}
 	

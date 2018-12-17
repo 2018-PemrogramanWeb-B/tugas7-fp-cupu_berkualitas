@@ -55,7 +55,7 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="homelogin.php">
+                <a class="nav-link" href="welcomelogin.php">
                   Home
                 </a>
               </li>
