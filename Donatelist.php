@@ -123,7 +123,7 @@
 			$row=mysqli_fetch_assoc($result);
 
 			$total=$row['total'];
-			$box=(int)($total/6000*0.6);
+			$box=(int)($total*0.6/6000);
 			$donasi=$total-$box*6000;
 			?>
           <table>  
