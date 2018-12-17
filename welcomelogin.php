@@ -66,35 +66,34 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item active">
-                <a class="nav-link" href="homelogin">
+                <a class="nav-link" href="homelogin.php">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="aboutlogin">
+                <a class="nav-link" href="aboutlogin.php">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="howtologin">
+                <a class="nav-link" href="howtologin.php">
                   How
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donatelogin">
+                <a class="nav-link" href="donatelogin.php">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="home">
+                <a class="nav-link" href="welcome.blade.php">
                   Logout
                 </a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
+      </nav></div>
       <!-- Navbar End -->
 
      <!-- Main Carousel Section Start -->

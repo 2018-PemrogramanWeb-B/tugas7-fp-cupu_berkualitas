@@ -55,32 +55,38 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
             <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""  width="50" height="60" ></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="home">
+              <li class="nav-item active">
+                <a class="nav-link" href="welcome.blade.php">
                   Home
                 </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about">
+              <li class="nav-item">
+                <a class="nav-link" href="about.php">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="howto">
+                <a class="nav-link" href="howto.php">
                   How
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donate">
+                <a class="nav-link" href="donatelist.php">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
+                <a class="nav-link" href="login.php">
                   Login
                 </a>
               </li>
@@ -88,6 +94,7 @@
           </div>
         </div>
       </nav>
+      </div>
       <!-- Navbar End -->
 
      <!-- Aboutus start --> 

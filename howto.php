@@ -54,28 +54,28 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="home">
+              <li class="nav-item active">
+                <a class="nav-link" href="welcome.blade.php">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">
+                <a class="nav-link" href="about.php">
                   About
                 </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="howto">
+              <li class="nav-item">
+                <a class="nav-link" href="howto.php">
                   How
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donate">
+                <a class="nav-link" href="donatelist.php">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
+                <a class="nav-link" href="login.php">
                   Login
                 </a>
               </li>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </nav>
-    </div>
+      </div>
       <!-- Navbar End -->
      <!-- How To Donate Section Start -->
     <section id="schedules" class="schedule section-padding">

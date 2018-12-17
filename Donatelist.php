@@ -65,36 +65,36 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="home">
+              <li class="nav-item active">
+                <a class="nav-link" href="welcome.blade.php">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">
+                <a class="nav-link" href="about.php">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="howto">
+                <a class="nav-link" href="howto.php">
                   How
                 </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="donate">
+              <li class="nav-item">
+                <a class="nav-link" href="donatelist.php">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
-                  Logout
+                <a class="nav-link" href="login.php">
+                  Login
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
+      </div>
       <!-- Navbar End -->
 
      <!-- Tempat start --> 
