@@ -1000,7 +1000,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   cursor: pointer;
   height: 90px;
   width: 255px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid  #9932CC;
   transition: all 500ms ease;
   padding: 20px 20px;
 }
@@ -1235,7 +1235,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Gallery Section */
 #gallery {
-  background: #f3f4f3;
+  background: #FFFFFF;
   position: relative;
 }
 
