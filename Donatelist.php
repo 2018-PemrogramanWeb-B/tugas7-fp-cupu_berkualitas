@@ -97,8 +97,8 @@
     </div>
       <!-- Navbar End -->
 
-     <!-- Aboutus start --> 
-    <section id="deskripsi" class="section-padding">
+     <!-- Tempat start --> 
+    <section id="tempat" class="section-padding">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
@@ -114,12 +114,29 @@
               </div>
             </div>
           </div>
+
+          <table>  
+          <tr>
+            <td>Jumlah Box<td>:</td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Jumlah Sumbangan<td>:</td></td>
+            <td>Francisco Chang</td>
+          </tr>
+          <tr>
+            <td>Total seluruhnya<td>:</td></td>
+            <td></td>
+          </tr>
+          </table>
+          <br>
               <h5>Kota ABCDEFG merupakan kota yang terletak di VWXYZ dan telah mengalami musibah banjir bandang pada bulan November lalu sehingga semua stok pangan dan pertanian terhanyut oleh banjir. Selain itu akses menuju kesana sangatlah susah karena hanya 1 jalan menuju kesana dan sangat </h5>
           </div>
         </div>
       </div>
+    </div>
     </section>
-
+    <!-- Tempat End -->
     <!-- Donate Us Section -->
     <section id="donate-map" class="section-padding">
       <div class="container">
