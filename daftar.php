@@ -39,13 +39,13 @@
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 
 
-    <!-- Login Start -->
-    <section id="login" class="section-padding">
+    <!-- Daftar Start -->
+    <section id="daftar" class="section-padding">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Login</h1>
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Daftar</h1>
             </div>
           </div>
           <div class="col-lg-7 col-md-12 col-xs-12">
@@ -73,7 +73,7 @@
                       </div>
 						
                       <div class="col-md-12 form-submit">
-                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
+                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Daftar</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
                     </div>

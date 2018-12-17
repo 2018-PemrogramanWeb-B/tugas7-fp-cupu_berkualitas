@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
- <!-- Required meta tags -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>F-SHARE</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>F-Share: How</title>
-
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+   <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
     <!-- Icon -->
     <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
@@ -20,9 +19,11 @@
     <!-- Main Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"> 
+
+
+  </head>
+  <body>
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -36,10 +37,88 @@
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
+
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    
 
 
-  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Navbar Start -->
+    <div>
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""  width="50" height="60" ></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="howto">
+                  How
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="donate">
+                  Donate
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login">
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <!-- Navbar End -->
+
+     <!-- Aboutus start --> 
+    <section id="deskripsi" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Bantu kota ABCDEFG</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">20 December 2018 - 31 December 2018</p>
+            </div>
+            <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-4">
+            <div class="gallery-box">
+              <div class="img-thumb">
+                <img class="img-fluid" src="assets/img/gallery/black.jpg" alt="">
+              </div>
+            </div>
+          </div>
+              <h5>Kota ABCDEFG merupakan kota yang terletak di VWXYZ dan telah mengalami musibah banjir bandang pada bulan November lalu sehingga semua stok pangan dan pertanian terhanyut oleh banjir. Selain itu akses menuju kesana sangatlah susah karena hanya 1 jalan menuju kesana dan sangat </h5>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Donate Us Section -->
     <section id="donate-map" class="section-padding">
@@ -109,6 +188,6 @@
       </div>
     </section>
     <!-- Donate Us Section End -->
-
-</body>
-</html>
+     <!-- Aboutus end -->
+ </body>
+ </html>

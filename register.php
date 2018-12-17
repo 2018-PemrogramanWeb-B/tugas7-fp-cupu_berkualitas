@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>F-Share: How</title>
+    <title>Login</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
@@ -39,15 +39,13 @@
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 
 
-  
-
-    <!-- Donate Us Section -->
-    <section id="donate-map" class="section-padding">
+    <!-- Login Start -->
+    <section id="login" class="section-padding">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Let's Donate</h1>
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Register</h1>
             </div>
           </div>
           <div class="col-lg-7 col-md-12 col-xs-12">
@@ -57,58 +55,36 @@
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="email" placeholder="Your Full Name" required data-error="Please enter your name">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12 form-line">
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
+                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Silahkan Masukkan Bahasa Indonesia">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone number" required data-error="Please enter your phone number">
+                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Please enter your Email">
                         <div class="help-block with-errors"></div>
-                      </div>
+                      </div> 
                     </div>
-                    <div class="col-md-12 form-line">
-                      <div class="form-group">
-                        <input type="number" class="form-control" id="donation" name="Donation" placeholder="Your Donation" required data-error="Please enter your donation">
-                        <div class="help-block with-errors"></div>
+                    
+                      <div class="col-md-12 form-line">
+                          <div class="form-group">
+                            <input type="password" class="form-control" name="pswd" placeholder="password" required data-error="Please enter your password">
+                            <div class="help-block with-errors"></div>
+                          </div>
                       </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label for="sel1">Select list (select one):</label>
-                          <select class="form-control" id="sel1">
-                            <option>GO-PAY</option>
-                            <option>Transfer Mandiri</option>
-                            <option>Transfer BCA</option>
-                            <option>Transfer BNI</option>
-                            <option>Transfer BRI</option>
-                          </select>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="checkbox">
-                        <label><input type="checkbox">Do you accept our terms and privacy?</label>
-                      </div>
-                      <div class="form-submit">
-                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
+
+                      <div class="col-md-12 form-submit">
+                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
                     </div>
-                  </div>
                 </form>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
-    <!-- Donate Us Section End -->
+    <!-- Login End -->
 
 </body>
 </html>

@@ -66,35 +66,35 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item active">
-                <a class="nav-link" href="home">
+                <a class="nav-link" href="homelogin">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">
+                <a class="nav-link" href="aboutlogin">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="howto">
+                <a class="nav-link" href="howtologin">
                   How
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donate">
+                <a class="nav-link" href="donatelogin">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
-                  Login
+                <a class="nav-link" href="home">
+                  Logout
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      </div>
+    </div>
       <!-- Navbar End -->
 
      <!-- Main Carousel Section Start -->
@@ -154,5 +154,10 @@
       </div>
     </section>
      <!-- Aboutus end -->
+
+
+    
+
+
  </body>
 </html>

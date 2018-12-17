@@ -49,39 +49,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <!-- Navbar Start -->
+   <!-- Navbar Start -->
     <div>
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
             <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""  width="50" height="60" ></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="home">
+              <li class="nav-item active">
+                <a class="nav-link" href="homelogin">
                   Home
                 </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutlogin">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="howto">
+                <a class="nav-link" href="howtologin">
                   How
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donate">
+                <a class="nav-link" href="donatelogin">
                   Donate
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
-                  Login
+                <a class="nav-link" href="home">
+                  Logout
                 </a>
               </li>
             </ul>
@@ -89,7 +95,6 @@
         </div>
       </nav>
       <!-- Navbar End -->
-
      <!-- Aboutus start --> 
     <section id="deskripsi" class="section-padding">
       <div class="container">
@@ -246,7 +251,7 @@
               <div class="overlay-box text-center">
                 <a class="lightbox" href="assets/img/gallery/img-1.jpg">
                   <i class="lni-plus"></i>
-                </a><span>andksjadadsjk</span>
+                </a>
               </div>
             </div>
           </div>

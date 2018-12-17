@@ -66,7 +66,7 @@
                             <div class="help-block with-errors"></div>
                           </div>
                       </div>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=daftar.php>not yet sign-in?</a	>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="daftar">Belum memiliki akun?</a>
                       <div class="col-md-12 form-submit">
                         <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Login</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
