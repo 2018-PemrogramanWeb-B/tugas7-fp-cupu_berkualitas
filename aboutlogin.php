@@ -65,12 +65,12 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="homelogin.php">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="aboutlogin.php">
                   About
                 </a>
@@ -81,7 +81,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="donatelogin.php">
+                <a class="nav-link" href="donatelistlogin.php">
                   Donate
                 </a>
               </li>
@@ -322,20 +322,7 @@
     </section>
     <!-- Gallary Section End -->
     <!-- Ask Question Section End -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    
 
 
 
