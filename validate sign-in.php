@@ -15,7 +15,7 @@ $conn= new mysqli("localhost","root","","mydb");
 	{
 		
 		$conn->query('INSERT INTO user VALUES(NULL,\''.$user.'\',\''.$pass.'\',\''.$_POST['email'].'\',\''.date('20y-m-d').'\')');
-		header('location:home.blade.php');
+		header('location:berhasildaftar.php');
 		echo 'a';
 	}
 	else{
