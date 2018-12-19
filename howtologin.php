@@ -50,7 +50,7 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <a href="welcome.blade.php" class="navbar-brand"><img src="assets/img/logo.png" alt=""  width="50" height="60" ></a>
+            <a href="welcomelogin.php" class="navbar-brand"><img src="assets/img/logo.png" alt=""  width="50" height="60" ></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
