@@ -123,7 +123,7 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="assets/img/slider/slide1.jpg" alt="Third slide">
             <div class="carousel-caption d-md-block">
-              <p class="fadeInUp wow" data-wow-delay=".6s">HELP PALU: 20 November-20 December 2018</p>
+              <p class="fadeInUp wow" data-wow-delay=".6s">HELP ABCDEFG: 20 December-31 December 2018</p>
               <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Their smile is our happiness</h1>
              
             </div>
