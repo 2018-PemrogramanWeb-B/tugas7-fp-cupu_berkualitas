@@ -21,6 +21,9 @@ $conn= new mysqli("localhost","root","","mydb");
 			$session["user"]=$user;
 			header("location:welcomelogin.php");
 		}
+		else{
+			header("location:login.php");
+		}
 	}
 	
 //not found mark as false
