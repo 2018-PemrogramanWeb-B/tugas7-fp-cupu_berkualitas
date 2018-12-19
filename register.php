@@ -55,13 +55,13 @@
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Silahkan Masukkan Bahasa Indonesia">
+                        <input type="name" class="form-control" name="name" placeholder="username" required data-error="Silahkan masukkan username ">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="email" class="form-control" name="uname" placeholder="Email" required data-error="Please enter your Email">
+                        <input type="email" class="form-control" name="name" placeholder="email" required data-error="Please enter your Email">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
