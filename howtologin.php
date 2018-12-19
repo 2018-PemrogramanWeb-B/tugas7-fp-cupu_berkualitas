@@ -135,7 +135,7 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/howto/speakers-1.png" alt="">
+                          <img class="img-fluid" src="assets/img/howto/images-1.png" alt="">
                         </div>                     
                         <h4>Kode transfer akan dikirim melalui email sesuai form</h4>
                       </div>
