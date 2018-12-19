@@ -118,8 +118,7 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Ask Question?</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Food Charity</p>
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Question and Answer</h1>
             </div>
           </div>
         </div>
@@ -129,48 +128,48 @@
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <div class="header-title" data-toggle="collapse" data-target="#questionOne" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="lni-pencil"></i> What is F-SHARE?
+                    <i class="lni-pencil"></i> Apa itu F-Share?
                   </div>
                 </div>
                 <div id="questionOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
                   <div class="card-body">
-                    F-SHARE is a charity event that accept any donations money and the money will be converted to food that will be distributed to people in need.
+                    F-Share adalah sebuah organisasi sosial dan platform untuk menggalang dana dan berdonasi secara online
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingTwo">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Which payment methods do you accept? 
+                      <i class="lni-pencil"></i>  Pembayaran apa yang dilakukan?
                     </div>
                 </div>
                 <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
                   <div class="card-body">
-                    We're just accept any payment by transfer using GO-PAY,MANDIRI,BCA,BNI,BRI
+                    Kami hanya menerima pembayaran melalui GO-PAY,MANDIRI,BCA,BNI,BRI
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
-                    <i class="lni-pencil"></i>  What's the things i have to prepared to contribute in F-SHARE?   
+                    <i class="lni-pencil"></i>  Mengapa hanya satu tempat tujuan donasi di website ini??
                   </div>
                 </div>
                 <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
                   <div class="card-body">
-                    You just donate your money or if you want to contribute in F-SHARE, just send our email in fshare@gmail.com
+                    Karena kami ingin semua kegiatan saat pengantaran dan pemberian makanan berjalan dengan lancar
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
-                   <i class="lni-pencil"></i> Who can contribute in this charity event?
+                   <i class="lni-pencil"></i> Apakah benar semua donasi akan diconvert menjadi makanan??
                   </div>
                 </div>
                 <div id="questionFour" class="collapse" aria-labelledby="headingThree" data-parent="#question">
                   <div class="card-body">
-                    Everyone who have a high sense of care of malnutrition that happening around us.
+                    Hanya 60% yang akan diconvert menjadi makanan sisanya akan diconvert menjadi donasi
                   </div>
                 </div>
               </div>
@@ -181,48 +180,48 @@
               <div class="card">
                 <div class="card-header" id="headingOne2">
                   <div class="header-title" data-toggle="collapse" data-target="#questionOne2" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="lni-pencil"></i> Where are the food donations going to?
+                    <i class="lni-pencil"></i> Mengapa tidak semua hasil donasi akan diconvert menjadi makanan?
                   </div>
                 </div>
                 <div id="questionOne2" class="collapse" aria-labelledby="headingOne" data-parent="#question">
                   <div class="card-body">
-                    The F-SHARE works with our partner member beneficiaries to distribute food items to people in need
+                    Karena kami menilai bahwa donasi yang tidak diconvert menjadi makanan bisa menjadi dana untuk membangun kembali ladang-ladang pertanian atau pembelajaran kepada masyarakat dalam pengolahan pangan
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingTwo2">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Do we reach out to people in need directly? 
+                      <i class="lni-pencil"></i>  Apakah F-Share mendatangi tempat tujuan donasi?Lalu darimana biayanya?
                     </div>
                 </div>
                 <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
                   <div class="card-body">
-                    At the moment, F-SHARE does not serve the needy on the ground directly. We rely on our member beneficiaries to help with the food distributions as we believe that they have more experience in doing so.
+                    Iya kita lansung mendatangi tempat tujuan donasi dan biayanya berasal dari sponsor kami.
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
-                    <i class="lni-pencil"></i>Can I donate food food instead of money ? 
+                    <i class="lni-pencil"></i> Apakah kegiatan F-Share selama di tempat donasi?
                   </div>
                 </div>
                 <div id="questionFive" class="collapse" aria-labelledby="headingThree" data-parent="#question">
                   <div class="card-body">
-                    Sorry now we just accept donation for money but don't worry, because your donation will be converted to food for each Rp.6000. 
+                      Selain memberikan hasil donasi yang dikumpul, kami memberikan pembelajaran kepada masyarakat tentang pengolahan pangan yang baik. 
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionSix" aria-expanded="false" aria-controls="questionSix">
-                    <i class="lni-pencil"></i>How else can I help F-SHARE?
+                    <i class="lni-pencil"></i>Bagaimana saya membantu F-Share?
                   </div>
                 </div>
                 <div id="questionSix" class="collapse" aria-labelledby="headingThree" data-parent="#question">
                   <div class="card-body">
-                        We are constantly looking out for volunteers to help us in distributing food. Feel free to contact us at fshare@gmail.com where we can discuss possible collaborations.
+                        Kita menerima segala jenis bantuan dari kalangan masyarakat. Tinggal hubungi email kami di FSHARE@gmail.com. Dan kami akan memberikan syarat-syarat  yang harus dilalui terlebih dahulu melalui email.
                   </div>
                 </div>
               </div>
