@@ -192,7 +192,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwo2">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Apakah F-Share mendatangi tempat tujuan donasi?Lalu darimana biayanya?
+                      <i class="lni-pencil"></i>  Apakah F-Share mendatangi tempat tujuan donasi?darimana biayanya?
                     </div>
                 </div>
                 <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
