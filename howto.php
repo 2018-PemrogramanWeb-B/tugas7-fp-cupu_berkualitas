@@ -85,6 +85,8 @@
       </nav>
       </div>
       <!-- Navbar End -->
+     
+
      <!-- How To Donate Section Start -->
     <section id="schedules" class="schedule section-padding">
       <div class="container">
@@ -120,7 +122,7 @@
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.png" alt="">
+                          <img class="img-fluid" src="assets/img/howto/images-2.png" alt="">
                         </div>                     
                         <h4>Isilah form</h4>
                       </div>
@@ -135,7 +137,7 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.png" alt="">
+                          <img class="img-fluid" src="assets/img/howto/speakers-1.png" alt="">
                         </div>                     
                         <h4>Kode transfer akan dikirim melalui email sesuai form</h4>
                       </div>
@@ -153,7 +155,7 @@
                     <div id="headingThree">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.png" alt="">
+                          <img class="img-fluid" src="assets/img/howto/images-3.png" alt="">
                         </div>                     
                         <h4>Donasi</h4>
                       </div>
@@ -173,7 +175,7 @@
         </div>
       </div>
     </section>
-    <!-- Schedule Section End -->
+    <!-- Howto Donate Section End -->
 
 </body>
 </html>
