@@ -12,7 +12,7 @@ $conn= new mysqli("localhost","root","","mydb");
 	$result=$conn->query('SELECT * FROM page');
 	$row=mysqli_fetch_assoc($result);
 	$row['total']+=$val;
-	$conn->query('UPDATE `page` SET `total`='.$val.' WHERE id_page=1');
+	$conn->query('UPDATE `page` SET `total`='.$row['total'].' WHERE id_page=1');
 	
 	header('location:berhasildonasilogin.php');
 ?>
