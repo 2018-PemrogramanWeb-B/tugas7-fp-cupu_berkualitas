@@ -149,7 +149,7 @@
           </tr>
           </table>
           <br>
-              <h5>Kota ABCDEFG merupakan kota yang terletak di VWXYZ dan telah mengalami musibah banjir bandang pada bulan November lalu sehingga semua stok pangan dan pertanian terhanyut oleh banjir. Selain itu akses menuju kesana sangatlah susah karena hanya 1 jalan menuju kesana dan sangat </h5>
+              <h5>Kota ABCDEFG merupakan kota yang terletak di VWXYZ dan telah mengalami musibah banjir bandang pada bulan November lalu sehingga semua stok pangan dan pertanian terhanyut oleh banjir. Selain itu akses menuju kesana sangatlah susah karena hanya 1 jalan menuju kesana dan sangat. Saat kita melakukan evaluasi disana, kami melihat banyak sekali masyarakat kurang paham cara mengolah pangan dan merawatnya karena selama ini hanya orang tertentu yang bisa melakukannya dan jumlahnya sedikit. Maka dari itu kami ingin sekali mengajak kalian membantu mereka untuk memberikan donasi se-ikhlas mungkin dan jika kalian ingin menjadi sukarelawan membantu kami, tinggal kirim kami email di fshare@gmail.com </h5>
           </div>
         </div>
       </div>
