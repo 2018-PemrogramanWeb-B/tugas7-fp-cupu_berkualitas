@@ -55,7 +55,7 @@
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="name" class="form-control" name="name" placeholder="username" required data-error="Silahkan masukkan username ">
+                        <input type="name" class="form-control" name="name" placeholder="username" required data-error="Please enter your username ">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>

@@ -177,7 +177,7 @@
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
-                    <div class="col-md-12 form-line">
+                    <div class="col-md-12 form-line" hidden>
                       <div class="form-group">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
                         <div class="help-block with-errors"></div>
