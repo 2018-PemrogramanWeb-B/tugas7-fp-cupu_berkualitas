@@ -65,7 +65,7 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="welcome.blade.php">
                   Home
                 </a>
@@ -80,7 +80,7 @@
                   How
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="donatelist.php">
                   Donate
                 </a>
