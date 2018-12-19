@@ -169,7 +169,7 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator"action=validate_donation.php>
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator"action=validate_donationlogin.php>
                   <div class="row">
                     <div class="col-md-12 form-line">
                       <div class="form-group">
