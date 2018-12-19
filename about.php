@@ -239,7 +239,6 @@
           <div class="col-12">
             <div class="section-title-header text-center">
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">our event gallery</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Food Charity</p>
             </div>
           </div> 
         </div>
@@ -247,23 +246,23 @@
           <div class="col-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-1.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-1.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
-                </a><span>andksjadadsjk</span>
+                </a>
               </div>
             </div>
           </div>
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-2.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
 
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-2.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -272,10 +271,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-3.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-3.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -284,10 +283,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-4.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-4.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -296,10 +295,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-5.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-5.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -308,10 +307,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-6.jpg" alt="">
+                <img class="img-fluid" src="assets/img/gallery/blue.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-6.jpg">
+                <a class="lightbox" href="assets/img/gallery/blue.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
